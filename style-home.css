@@ -1,0 +1,60 @@
+/* Es una buena practica mantener la estructura del HTMl en el style*/
+.titulo-principal{
+    padding-left: 30px; 
+}
+
+#banner {/* Se le pone el # para hacer referencia de que provieeb de un id*/
+    width: 100%;
+}
+
+.principal{
+    background: #cccccc;
+    padding: 20px; /*Espaciamiento interno*/
+}
+
+.titulo-centralizado{
+    text-align: center;
+    /*height: 150px;
+    border: 10px solid #000000;
+    padding: 20px;
+    margin: 40px;*/
+}
+
+p{
+    text-align: center;
+    background: #cccccc;
+}
+
+em strong{ /*el color se aplica a esa combinación de etiquetas, si solo dejamos el strong afectara a todas las etiquetas de ese tipo */
+    color: red;
+}
+
+#mision{
+    font-size: 20px;
+}
+/* códigos hexadecimales para represnetarlos colores */
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;/* ocupa solo el espacio de su contenido y 
+    que los espaciamientos, tanto de la parte de arriba, inferiores, 
+    superiores, inferiores, derechos, izquierdos, se puedan ajustar, 
+    puedan ser ajustables.   */
+    vertical-align: top;
+    width: 20%; /*ocupa el 20% del total de la pantalla*/
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
+
